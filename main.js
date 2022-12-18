@@ -36,7 +36,7 @@ fetch(
       document.getElementById("r1d1").innerHTML = data_time;
 
       let icon_code = data.list[0].weather[0].icon;
-      console.log(icon_code + " first");
+      //console.log(icon_code + " first");
       let icon_path = "http://openweathermap.org/img/w/" + icon_code + ".png";
       if (icon_code === "01n") {
         document.getElementById("r1d2").src = "icons/sun_shine.png";
@@ -81,7 +81,7 @@ fetch(
       document.getElementById("r2d1").innerHTML = data_time1;
 
       let icon_code1 = data.list[8].weather[0].icon;
-      console.log(icon_code1 + " second");
+      //console.log(icon_code1 + " second");
       let icon_path1 = "http://openweathermap.org/img/w/" + icon_code1 + ".png";
       if (icon_code1 === "03n") {
         document.getElementById("r2d2").src = "icons/cloud.png";
@@ -126,7 +126,7 @@ fetch(
       document.getElementById("r3d1").innerHTML = data_time2;
 
       let icon_code2 = data.list[16].weather[0].icon;
-      console.log(icon_code2 + " third");
+      //(icon_code2 + " third");
       let icon_path2 = "http://openweathermap.org/img/w/" + icon_code2 + ".png";
       if (icon_code2 === "03n") {
         document.getElementById("r3d2").src = "icons/cloud.png";
@@ -171,7 +171,7 @@ fetch(
       document.getElementById("r4d1").innerHTML = data_time3;
 
       let icon_code3 = data.list[24].weather[0].icon;
-      console.log(icon_code3 + " fourth");
+      //console.log(icon_code3 + " fourth");
       let icon_path3 = "http://openweathermap.org/img/w/" + icon_code3 + ".png";
 
       if (icon_code3 === "03n") {
@@ -218,7 +218,7 @@ fetch(
 
       let icon_code4 = data.list[32].weather[0].icon;
       let icon_path4 = "http://openweathermap.org/img/w/" + icon_code4 + ".png";
-      console.log(icon_code4 + " fifth");
+      //console.log(icon_code4 + " fifth");
       if (icon_code4 === "01n") {
         document.getElementById("r5d2").src = "icons/sun_shine.png";
       }
